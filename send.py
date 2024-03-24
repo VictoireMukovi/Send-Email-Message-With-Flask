@@ -18,7 +18,7 @@ mail = Mail(app)
 
 if __name__ == '__main__':
     with app.app_context():
-        msg = Message(subject="Hello",
+        msg = Message(subject="Obet du code de confirmation",
                       sender=app.config.get("MAIL_USERNAME"),
                       recipients=[""], # use your email for testing
                       body="Bonjour ceci est une code de confirmation")
